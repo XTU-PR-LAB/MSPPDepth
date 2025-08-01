@@ -89,7 +89,7 @@ wget https://storage.googleapis.com/niantic-lon-static/research/manydepth/gt_dep
 unzip gt_depths_cityscapes.zip
 ```
 To evaluate a model on Cityscapes, run:
-```
+```bash
 python evaluate_cs_depth.py \
 --load_weights_folder path/to/your/weights/folder \
 --cityscapes_path path/to/your/datasets/folder
@@ -97,7 +97,7 @@ python evaluate_cs_depth.py \
 
 🔹 NYU
 
-```
+```bash
 python evaluate_nyu_depth.py --load_weights_folder path/to/your/weights/folder --eval_mono
 ```
 
